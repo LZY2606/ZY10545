@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "isolatedDeclarations": false,
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "unenv": [
+        "./src/index.ts"
+      ],
+      "unenv/*": [
+        "./src/runtime/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
